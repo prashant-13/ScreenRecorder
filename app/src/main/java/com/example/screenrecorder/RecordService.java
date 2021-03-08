@@ -123,6 +123,7 @@ public final class RecordService extends Service {
         mMediaRecorder.setVideoEncoder(MediaRecorder.VideoEncoder.H264);
         mMediaRecorder.setVideoEncodingBitRate(8 * 1000 * 1000);
         mMediaRecorder.setVideoFrameRate(15);
+
         mMediaRecorder.setVideoSize(displayWidth, displayHeight);
 
         String videoDir = Environment.getExternalStoragePublicDirectory(DIRECTORY_MOVIES).getAbsolutePath();
