@@ -32,12 +32,6 @@ public class RecordingActivity extends AppCompatActivity {
 
         if (isStoragePermissionGranted())
             Toast.makeText(this, "Permission Granted", Toast.LENGTH_SHORT).show();
-            Toast.makeText(this, "Permission Granted", Toast.LENGTH_SHORT).show();
-            Toast.makeText(this, "Permission Granted", Toast.LENGTH_SHORT).show();
-            Toast.makeText(this, "Permission Granted", Toast.LENGTH_SHORT).show();
-            Toast.makeText(this, "Permission Granted", Toast.LENGTH_SHORT).show();
-            Toast.makeText(this, "Permission Granted", Toast.LENGTH_SHORT).show();
-            Toast.makeText(this, "Permission Granted", Toast.LENGTH_SHORT).show();
     }
 
     @Override
