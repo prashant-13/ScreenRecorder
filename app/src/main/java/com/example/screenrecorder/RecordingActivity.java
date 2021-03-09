@@ -29,9 +29,6 @@ public class RecordingActivity extends AppCompatActivity {
 
         if (isStoragePermissionGranted())
             startActivityForResult(mProjectionManager.createScreenCaptureIntent(), PERMISSION_CODE);
-
-        if (isStoragePermissionGranted())
-            Toast.makeText(this, "Permission Granted", Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -89,8 +86,6 @@ public class RecordingActivity extends AppCompatActivity {
             Log.v(TAG, "Permission: " + permissions[0] + "was " + grantResults[0]);
             //resume tasks needing this permission
             startActivityForResult(mProjectionManager.createScreenCaptureIntent(), PERMISSION_CODE);
-
-            Toast.makeText(this, "Persmission Granted and screen recording started", Toast.LENGTH_SHORT).show();
         }
     }
 }
